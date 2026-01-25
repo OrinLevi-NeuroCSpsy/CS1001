@@ -148,7 +148,7 @@ python basics_demo.py
 ## קישורים שימושיים
 
 - [אתר התיעוד (MkDocs)](https://orinlevi.github.io/CS1001_sum/)
-- [Colab – פתיחת מחברות](https://colab.research.google.com/github/orinlevi/CS1001_sum/tree/main/notebooks/)
+- [Colab – פתיחת מחברות](https://colab.research.google.com/github/orinlevi/CS1001_sum/tree/master/notebooks/)
 - [אתר הקורס](http://tau-cs1001-py.wikidot.com/)
 - [מבחנים קודמים](http://tau-cs1001-py.wikidot.com/exams)
 - [Python Documentation](https://docs.python.org/3/)

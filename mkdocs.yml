@@ -109,13 +109,13 @@ nav:
     - התאמת מחרוזות: notebooks/string_matching.ipynb
   - קוד: code/README.md
   - Colab:
-    - חיפוש בינארי וסיבוכיות: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/binary_search_and_complexity.ipynb
-    - רקורסיה ו-Memoization: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/recursion_and_memoization.ipynb
-    - מבני נתונים: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/data_structures.ipynb
-    - דחיסה: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/compression.ipynb
-    - מיון: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/sorting.ipynb
-    - פונקציות מסדר גבוה: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/higher_order.ipynb
-    - זיכרון: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/memory.ipynb
-    - קריפטוגרפיה: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/cryptography.ipynb
-    - תיקון שגיאות: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/error_correction.ipynb
-    - התאמת מחרוזות: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/string_matching.ipynb
+    - חיפוש בינארי וסיבוכיות: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/master/notebooks/binary_search_and_complexity.ipynb
+    - רקורסיה ו-Memoization: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/master/notebooks/recursion_and_memoization.ipynb
+    - מבני נתונים: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/master/notebooks/data_structures.ipynb
+    - דחיסה: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/master/notebooks/compression.ipynb
+    - מיון: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/master/notebooks/sorting.ipynb
+    - פונקציות מסדר גבוה: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/master/notebooks/higher_order.ipynb
+    - זיכרון: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/master/notebooks/memory.ipynb
+    - קריפטוגרפיה: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/master/notebooks/cryptography.ipynb
+    - תיקון שגיאות: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/master/notebooks/error_correction.ipynb
+    - התאמת מחרוזות: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/master/notebooks/string_matching.ipynb

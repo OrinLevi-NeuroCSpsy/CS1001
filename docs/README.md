@@ -151,7 +151,7 @@ python basics_demo.py
 
 ## קישורים שימושיים
 
-- [Colab – פתיחת מחברות](https://colab.research.google.com/github/orinlevi/CS1001_sum/tree/main/notebooks/) (או מתפריט **Colab** בצד)
+- [Colab – פתיחת מחברות](https://colab.research.google.com/github/orinlevi/CS1001_sum/tree/master/notebooks/) (או מתפריט **Colab** בצד)
 - [אתר הקורס](http://tau-cs1001-py.wikidot.com/)
 - [מבחנים קודמים](http://tau-cs1001-py.wikidot.com/exams)
 - [Python Documentation](https://docs.python.org/3/)
