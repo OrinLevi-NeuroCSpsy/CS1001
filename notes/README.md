@@ -9,6 +9,7 @@
 | קובץ | נושא | מה תלמד |
 |------|------|---------|
 | [basics.md](basics.md) | יסודות | משתנים, תנאים, לולאות, טיפוסים בסיסיים |
+| [memory.md](memory.md) | זיכרון | מודל הזיכרון, mutable/immutable, aliasing, copy, stack, trace |
 | [lists.md](lists.md) | רשימות | יצירה, גישה, slicing, list comprehension, מתודות |
 | [strings.md](strings.md) | מחרוזות | פעולות, עיבוד טקסט, פורמט |
 | [dictionaries_and_sets.md](dictionaries_and_sets.md) | מילונים וקבוצות | dict, set, פעולות נפוצות, סיבוכיות |
@@ -93,7 +94,7 @@
 ## סדר לימוד מומלץ
 
 ```
-שבוע 1-2:  basics → lists → strings → dictionaries_and_sets
+שבוע 1-2:  basics → memory → lists → strings → dictionaries_and_sets
 שבוע 3-4:  functions_and_recursion → complexity
 שבוע 5-6:  sorting → search_binary
 שבוע 7-8:  higher_order_functions → iterators_generators → memoization
