@@ -15,6 +15,9 @@
 | [sorting.ipynb](sorting.ipynb) | Bubble, Selection, Merge, Quick | [sorting.md](../notes/sorting.md) |
 | [higher_order.ipynb](higher_order.ipynb) | Lambda, Map, Filter, Reduce | [higher_order_functions.md](../notes/higher_order_functions.md) |
 | [memory.ipynb](memory.ipynb) | זיכרון, Aliasing, Copy | [memory.md](../notes/memory.md) |
+| [cryptography.ipynb](cryptography.ipynb) | ראשוניות, Diffie-Hellman, RSA | [cryptography.md](../notes/cryptography.md) |
+| [error_correction.ipynb](error_correction.ipynb) | המינג, קודים לתיקון שגיאות | [error_correction.md](../notes/error_correction.md) |
+| [string_matching.ipynb](string_matching.ipynb) | Naive, Rabin-Karp, KMP | [string_matching.md](../notes/string_matching.md) |
 
 ---
 
@@ -68,6 +71,27 @@ jupyter lab
 - השוואת ביצועים על קלטים שונים
 - הדגמת מקרה גרוע ל-Quicksort
 - טבלת סיבוכיויות
+
+### cryptography.ipynb
+- בדיקת ראשוניות (naive ויעיל)
+- נפה של ארטוסתנס
+- חשבון מודולרי ו-GCD
+- Diffie-Hellman Key Exchange
+- RSA: יצירת מפתחות, הצפנה ופענוח
+- חתימה דיגיטלית
+
+### error_correction.ipynb
+- מרחק המינג
+- סיבית זוגיות
+- קוד המינג (7,4)
+- קוד המינג מורחב (8,4) - SECDED
+- חישוב ביטי בדיקה
+
+### string_matching.ipynb
+- חיפוש נאיבי
+- Rabin-Karp עם rolling hash
+- KMP ובניית טבלת failure
+- השוואת ביצועים
 
 ---
 
