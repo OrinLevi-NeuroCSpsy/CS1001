@@ -160,8 +160,8 @@ python basics_demo.py
 
 ## תרומה
 
-מצאתם טעות? רוצים להוסיף חומר? פתחו Issue או Pull Request!
+מצאתם טעות? רוצים להוסיף חומר? פתחו Issue או Pull Request — או שלחו מייל ל־[orinl@mail.tau.ac.il](mailto:orinl@mail.tau.ac.il).
 
 ---
 
-*נוצר לקורס CS1001.py, אוניברסיטת תל אביב*
+*נוצר לקורס CS1001.py, אוניברסיטת תל אביב. המרצה: אמיר רובינשטיין.*
