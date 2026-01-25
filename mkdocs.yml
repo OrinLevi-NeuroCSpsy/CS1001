@@ -1,4 +1,4 @@
-site_name: CS1001.py - סיכום קורס
+site_name: סיכום קורס מבוא מורחב למדעי המחשב (CS1001.py)
 site_description: סיכום מקיף לקורס מבוא מורחב למדעי המחשב, אוניברסיטת תל אביב
 docs_dir: docs
 site_url: https://orinlevi.github.io/CS1001_sum/
@@ -52,6 +52,8 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - attr_list
+  - md_in_html
 
 nav:
   - בית: README.md

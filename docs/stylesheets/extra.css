@@ -1,10 +1,21 @@
-/* כותרת האתר – ורוד בייבי + by Orin Levi */
+/* כותרת האתר – ורוד בייבי, by Orin Levi, אפרוח עם רקע ורוד */
 
 /* כותרת בראש העמוד (header) */
 .md-header__title .md-header__topic:first-of-type {
   color: #f8b4d9 !important;
 }
 
+/* אפרוח עם רקע ורוד – לפני כותרת ה-header */
+.md-header__title .md-header__topic:first-of-type::before {
+  content: "🐣";
+  background: #f8b4d9;
+  padding: 2px 6px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-inline-end: 8px;
+}
+
+/* by Orin Levi מתחת לכותרת – עם רווח ברור */
 .md-header__title .md-header__topic:first-of-type::after {
   content: "by Orin Levi";
   display: block;
@@ -12,5 +23,26 @@
   font-weight: 400;
   opacity: 0.9;
   color: #f8b4d9;
-  margin-top: 0.1em;
+  margin-top: 0.4em;
+}
+
+/* כותרת ראשית בדף הבית – ורוד בייבי */
+.main-title {
+  color: #f8b4d9 !important;
+}
+
+/* by Orin Levi בדף הבית – קטן יותר, עם רווח מהכותרת */
+.byline {
+  font-size: 0.85em;
+  color: #f8b4d9;
+  margin-top: 0.35em;
+  display: block;
+}
+
+/* אפרוח עם רקע ורוד – בדף הבית */
+.chick-badge {
+  background: #f8b4d9;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-inline-end: 8px;
 }
