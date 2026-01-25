@@ -1,6 +1,18 @@
 # סיכום קורס מבוא מורחב למדעי המחשב (CS1001.py)
 
-סיכום מקיף לקורס CS1001.py באוניברסיטת תל אביב, כולל סיכומי נושאים, שאלות מבחנים וקוד לדוגמה.
+סיכום מקיף לקורס CS1001.py באוניברסיטת תל אביב, כולל סיכומי נושאים, שאלות מבחנים, מחברות Jupyter וקוד לדוגמה.
+
+---
+
+## ניווט באתר
+
+| מדור | תוכן |
+|------|------|
+| **בית** | דף זה |
+| **סיכומים** | נושאים + שאלות מבחנים |
+| **מחברות** | מחברות Jupyter (תצוגה באתר) |
+| **קוד** | קוד לדוגמה – [code/README.md](code/README.md) |
+| **Colab** | כפתורי Open in Colab לכל מחברת |
 
 ---
 
@@ -131,13 +143,15 @@ python basics_demo.py
 
 1. **קרא את הסיכומים** ב-notes/
 2. **תרגל שאלות** מ-exam_questions/
-3. **הרץ את הקוד** ב-code/ להבנה מעמיקה
+3. **הרץ את הקוד** ב-[code/](code/README.md) להבנה מעמיקה
 4. **עבור על הטריקים** ב-[exam_tricks.md](notes/exam_tricks.md)
+5. **פתח מחברות ב-Colab** מתפריט **Colab** או מ-[מחברות](notebooks/README.md)
 
 ---
 
 ## קישורים שימושיים
 
+- [Colab – פתיחת מחברות](https://colab.research.google.com/github/orinlevi/CS1001_sum/tree/main/notebooks/) (או מתפריט **Colab** בצד)
 - [אתר הקורס](http://tau-cs1001-py.wikidot.com/)
 - [מבחנים קודמים](http://tau-cs1001-py.wikidot.com/exams)
 - [Python Documentation](https://docs.python.org/3/)

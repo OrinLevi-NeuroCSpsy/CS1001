@@ -29,7 +29,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install mkdocs-material
+          pip install mkdocs-material mkdocs-jupyter
 
       - name: Build site
         run: mkdocs build

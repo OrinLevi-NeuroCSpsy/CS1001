@@ -1,14 +1,16 @@
 # CS1001.py - דרישות הפרויקט
 
-# Documentation
+# Documentation (MkDocs + Material + Jupyter)
+mkdocs>=1.5.0
 mkdocs-material>=9.5.0
+mkdocs-jupyter>=0.25.0
 
-# Jupyter notebooks
+# Jupyter (הרצת מחברות)
 jupyter>=1.0.0
 notebook>=7.0.0
 
-# Image processing (for image_processing_demo.py)
+# Image processing (image_processing_demo.py)
 Pillow>=10.0.0
 
-# Optional: for running tests
+# Optional: tests
 pytest>=7.0.0

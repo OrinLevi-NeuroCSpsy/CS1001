@@ -6,18 +6,18 @@
 
 ## רשימת מחברות
 
-| מחברת | נושאים | קישור לסיכום |
-|-------|--------|--------------|
-| [binary_search_and_complexity.ipynb](binary_search_and_complexity.ipynb) | חיפוש בינארי, ניתוח סיבוכיות | [complexity.md](../notes/complexity.md) |
-| [recursion_and_memoization.ipynb](recursion_and_memoization.ipynb) | פיבונאצ'י, Subset Sum, LIS, LCS | [memoization.md](../notes/memoization.md) |
-| [data_structures.ipynb](data_structures.ipynb) | BST, Hash Tables | [oop.md](../notes/oop.md), [hash_tables.md](../notes/hash_tables.md) |
-| [compression.ipynb](compression.ipynb) | האפמן, Lempel-Ziv | [compression.md](../notes/compression.md) |
-| [sorting.ipynb](sorting.ipynb) | Bubble, Selection, Merge, Quick | [sorting.md](../notes/sorting.md) |
-| [higher_order.ipynb](higher_order.ipynb) | Lambda, Map, Filter, Reduce | [higher_order_functions.md](../notes/higher_order_functions.md) |
-| [memory.ipynb](memory.ipynb) | זיכרון, Aliasing, Copy | [memory.md](../notes/memory.md) |
-| [cryptography.ipynb](cryptography.ipynb) | ראשוניות, Diffie-Hellman, RSA | [cryptography.md](../notes/cryptography.md) |
-| [error_correction.ipynb](error_correction.ipynb) | המינג, קודים לתיקון שגיאות | [error_correction.md](../notes/error_correction.md) |
-| [string_matching.ipynb](string_matching.ipynb) | Naive, Rabin-Karp, KMP | [string_matching.md](../notes/string_matching.md) |
+| מחברת | נושאים | Open in Colab | קישור לסיכום |
+|-------|--------|---------------|--------------|
+| [binary_search_and_complexity.ipynb](binary_search_and_complexity.ipynb) | חיפוש בינארי, ניתוח סיבוכיות | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/binary_search_and_complexity.ipynb) | [complexity.md](../notes/complexity.md) |
+| [recursion_and_memoization.ipynb](recursion_and_memoization.ipynb) | פיבונאצ'י, Subset Sum, LIS, LCS | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/recursion_and_memoization.ipynb) | [memoization.md](../notes/memoization.md) |
+| [data_structures.ipynb](data_structures.ipynb) | BST, Hash Tables | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/data_structures.ipynb) | [oop.md](../notes/oop.md), [hash_tables.md](../notes/hash_tables.md) |
+| [compression.ipynb](compression.ipynb) | האפמן, Lempel-Ziv | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/compression.ipynb) | [compression.md](../notes/compression.md) |
+| [sorting.ipynb](sorting.ipynb) | Bubble, Selection, Merge, Quick | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/sorting.ipynb) | [sorting.md](../notes/sorting.md) |
+| [higher_order.ipynb](higher_order.ipynb) | Lambda, Map, Filter, Reduce | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/higher_order.ipynb) | [higher_order_functions.md](../notes/higher_order_functions.md) |
+| [memory.ipynb](memory.ipynb) | זיכרון, Aliasing, Copy | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/memory.ipynb) | [memory.md](../notes/memory.md) |
+| [cryptography.ipynb](cryptography.ipynb) | ראשוניות, Diffie-Hellman, RSA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/cryptography.ipynb) | [cryptography.md](../notes/cryptography.md) |
+| [error_correction.ipynb](error_correction.ipynb) | המינג, קודים לתיקון שגיאות | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/error_correction.ipynb) | [error_correction.md](../notes/error_correction.md) |
+| [string_matching.ipynb](string_matching.ipynb) | Naive, Rabin-Karp, KMP | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/string_matching.ipynb) | [string_matching.md](../notes/string_matching.md) |
 
 ---
 

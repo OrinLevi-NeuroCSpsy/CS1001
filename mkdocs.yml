@@ -11,18 +11,18 @@ theme:
   language: he
   direction: rtl
   palette:
-    - scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/brightness-7
-        name: מצב לילה
     - scheme: slate
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-4
         name: מצב יום
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: מצב לילה
   features:
     - navigation.instant
     - navigation.tracking
@@ -32,6 +32,7 @@ theme:
     - content.code.copy
 
 plugins:
+  - mkdocs-jupyter
   - search:
       lang: he
 
@@ -49,52 +50,52 @@ markdown_extensions:
 
 nav:
   - בית: README.md
-  - סיכומי נושאים:
-    - יסודות פייתון:
-      - יסודות: notes/basics.md
-      - זיכרון: notes/memory.md
-      - רשימות: notes/lists.md
-      - מחרוזות: notes/strings.md
-      - מילונים וקבוצות: notes/dictionaries_and_sets.md
-    - פונקציות:
-      - פונקציות ורקורסיה: notes/functions_and_recursion.md
-      - פונקציות מסדר גבוה: notes/higher_order_functions.md
-      - איטרטורים וגנרטורים: notes/iterators_generators.md
-    - סיבוכיות ואלגוריתמים:
-      - סיבוכיות: notes/complexity.md
-      - מיון: notes/sorting.md
-      - חיפוש בינארי: notes/search_binary.md
-      - Memoization: notes/memoization.md
-    - מבני נתונים:
-      - OOP: notes/oop.md
-      - רשימות מקושרות: notes/linked_lists.md
-      - טבלאות גיבוב: notes/hash_tables.md
-    - ייצוג מידע:
-      - ייצוג מספרים: notes/number_representation.md
-      - ייצוג טקסט: notes/text_representation.md
-    - דחיסה וקריפטוגרפיה:
-      - דחיסה: notes/compression.md
-      - תיקון שגיאות: notes/error_correction.md
-      - קריפטוגרפיה: notes/cryptography.md
-    - נושאים נוספים:
-      - התאמת מחרוזות: notes/string_matching.md
-      - עיבוד תמונות: notes/image_processing.md
-      - קבצים: notes/file_io.md
-    - הכנה לבחינה:
-      - טריקים לבחינה: notes/exam_tricks.md
-      - דף סיכום: notes/cheat_sheet.md
-  - שאלות מבחנים:
-    - סקירה: exam_questions/README.md
-    - סיבוכיות: exam_questions/complexity.md
-    - מבני נתונים: exam_questions/data_structures.md
-    - רקורסיה וגנרטורים: exam_questions/recursion_and_generators.md
-    - דחיסה: exam_questions/compression.md
-    - תיקון שגיאות: exam_questions/error_correction.md
-    - קריפטוגרפיה: exam_questions/cryptography_and_primes.md
-    - זיכרון: exam_questions/memory.md
-    - נושאים נוספים: exam_questions/misc_topics.md
-  - קוד לדוגמה: code/README.md
-  - מחברות Jupyter:
+  - סיכומים:
+    - נושאים:
+      - יסודות פייתון:
+        - יסודות: notes/basics.md
+        - זיכרון: notes/memory.md
+        - רשימות: notes/lists.md
+        - מחרוזות: notes/strings.md
+        - מילונים וקבוצות: notes/dictionaries_and_sets.md
+      - פונקציות:
+        - פונקציות ורקורסיה: notes/functions_and_recursion.md
+        - פונקציות מסדר גבוה: notes/higher_order_functions.md
+        - איטרטורים וגנרטורים: notes/iterators_generators.md
+      - סיבוכיות ואלגוריתמים:
+        - סיבוכיות: notes/complexity.md
+        - מיון: notes/sorting.md
+        - חיפוש בינארי: notes/search_binary.md
+        - Memoization: notes/memoization.md
+      - מבני נתונים:
+        - OOP: notes/oop.md
+        - רשימות מקושרות: notes/linked_lists.md
+        - טבלאות גיבוב: notes/hash_tables.md
+      - ייצוג מידע:
+        - ייצוג מספרים: notes/number_representation.md
+        - ייצוג טקסט: notes/text_representation.md
+      - דחיסה וקריפטוגרפיה:
+        - דחיסה: notes/compression.md
+        - תיקון שגיאות: notes/error_correction.md
+        - קריפטוגרפיה: notes/cryptography.md
+      - נושאים נוספים:
+        - התאמת מחרוזות: notes/string_matching.md
+        - עיבוד תמונות: notes/image_processing.md
+        - קבצים: notes/file_io.md
+      - הכנה לבחינה:
+        - טריקים לבחינה: notes/exam_tricks.md
+        - דף סיכום: notes/cheat_sheet.md
+    - שאלות מבחנים:
+      - סקירה: exam_questions/README.md
+      - סיבוכיות: exam_questions/complexity.md
+      - מבני נתונים: exam_questions/data_structures.md
+      - רקורסיה וגנרטורים: exam_questions/recursion_and_generators.md
+      - דחיסה: exam_questions/compression.md
+      - תיקון שגיאות: exam_questions/error_correction.md
+      - קריפטוגרפיה: exam_questions/cryptography_and_primes.md
+      - זיכרון: exam_questions/memory.md
+      - נושאים נוספים: exam_questions/misc_topics.md
+  - מחברות:
     - סקירה: notebooks/README.md
     - חיפוש בינארי וסיבוכיות: notebooks/binary_search_and_complexity.ipynb
     - רקורסיה ו-Memoization: notebooks/recursion_and_memoization.ipynb
@@ -106,3 +107,15 @@ nav:
     - קריפטוגרפיה: notebooks/cryptography.ipynb
     - תיקון שגיאות: notebooks/error_correction.ipynb
     - התאמת מחרוזות: notebooks/string_matching.ipynb
+  - קוד: code/README.md
+  - Colab:
+    - חיפוש בינארי וסיבוכיות: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/binary_search_and_complexity.ipynb
+    - רקורסיה ו-Memoization: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/recursion_and_memoization.ipynb
+    - מבני נתונים: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/data_structures.ipynb
+    - דחיסה: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/compression.ipynb
+    - מיון: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/sorting.ipynb
+    - פונקציות מסדר גבוה: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/higher_order.ipynb
+    - זיכרון: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/memory.ipynb
+    - קריפטוגרפיה: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/cryptography.ipynb
+    - תיקון שגיאות: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/error_correction.ipynb
+    - התאמת מחרוזות: https://colab.research.google.com/github/orinlevi/CS1001_sum/blob/main/notebooks/string_matching.ipynb
