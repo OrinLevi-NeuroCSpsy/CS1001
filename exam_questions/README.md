@@ -1,6 +1,6 @@
 # שאלות מבחן לפי נושאים
 
-מאגר שאלות ממבחנים קודמים (2022-2023), מאורגן לפי נושאים.
+מאגר שאלות ממבחנים קודמים (2022-2025), מאורגן לפי נושאים.
 
 ---
 
@@ -8,13 +8,13 @@
 
 | קובץ | נושאים | מבחנים |
 |------|--------|--------|
-| [complexity.md](complexity.md) | סיבוכיות, ניתוח לולאות | 2022b, 2023a, 2023b |
-| [compression.md](compression.md) | האפמן, LZ | 2022b, 2023a, 2023b |
+| [complexity.md](complexity.md) | סיבוכיות, ניתוח לולאות | 2022b, 2023a, 2023b, 2024a, 2024b, 2025a |
+| [compression.md](compression.md) | האפמן, LZ, Prefix-free | 2022b, 2023a, 2023b, 2024a, 2024b, 2025a |
 | [error_correction.md](error_correction.md) | קודים לתיקון שגיאות, המינג | 2022b, 2023a, 2023b |
-| [data_structures.md](data_structures.md) | BST, Hash Tables | 2022b, 2023a, 2023b |
-| [recursion_and_generators.md](recursion_and_generators.md) | רקורסיה, גנרטורים, CYK | 2022b, 2023a, 2023b |
+| [data_structures.md](data_structures.md) | BST, Hash Tables, עצי ביטויים | 2022b, 2023a, 2023b, 2024a, 2024b, 2025a |
+| [recursion_and_generators.md](recursion_and_generators.md) | רקורסיה, גנרטורים, LCS, Memoization | 2022b, 2023a, 2023b, 2024a, 2024b, 2025a |
 | [cryptography_and_primes.md](cryptography_and_primes.md) | ראשוניות, פרמה, modpower | 2022b |
-| [misc_topics.md](misc_topics.md) | PageRank, עיבוד תמונות, דקדוקים | 2023a, 2023b |
+| [misc_topics.md](misc_topics.md) | PageRank, Floating Point, Aliasing | 2023a, 2023b, 2024a, 2024b, 2025a |
 
 ---
 
@@ -42,7 +42,12 @@
 ## מקורות המבחנים
 
 - [מבחנים באתר הקורס](http://tau-cs1001-py.wikidot.com/exams)
-- מבחנים שנסרקו: 2022b מועד א'+ב', 2023a מועד א'+ב', 2023b מועד א'
+- מבחנים שנסרקו:
+  - 2022b מועד א'+ב'
+  - 2023a מועד א'+ב'
+  - 2023b מועד א'
+  - 2024a מועד א'+ב'
+  - 2025a מועד א'
 
 ---
 
