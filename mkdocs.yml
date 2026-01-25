@@ -1,0 +1,108 @@
+site_name: CS1001.py - סיכום קורס
+site_description: סיכום מקיף לקורס מבוא מורחב למדעי המחשב, אוניברסיטת תל אביב
+docs_dir: .
+site_url: https://orinlevi.github.io/CS1001_sum/
+
+repo_name: CS1001_sum
+repo_url: https://github.com/orinlevi/CS1001_sum
+
+theme:
+  name: material
+  language: he
+  direction: rtl
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: מצב לילה
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: מצב יום
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      lang: he
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - בית: README.md
+  - סיכומי נושאים:
+    - יסודות פייתון:
+      - יסודות: notes/basics.md
+      - זיכרון: notes/memory.md
+      - רשימות: notes/lists.md
+      - מחרוזות: notes/strings.md
+      - מילונים וקבוצות: notes/dictionaries_and_sets.md
+    - פונקציות:
+      - פונקציות ורקורסיה: notes/functions_and_recursion.md
+      - פונקציות מסדר גבוה: notes/higher_order_functions.md
+      - איטרטורים וגנרטורים: notes/iterators_generators.md
+    - סיבוכיות ואלגוריתמים:
+      - סיבוכיות: notes/complexity.md
+      - מיון: notes/sorting.md
+      - חיפוש בינארי: notes/search_binary.md
+      - Memoization: notes/memoization.md
+    - מבני נתונים:
+      - OOP: notes/oop.md
+      - רשימות מקושרות: notes/linked_lists.md
+      - טבלאות גיבוב: notes/hash_tables.md
+    - ייצוג מידע:
+      - ייצוג מספרים: notes/number_representation.md
+      - ייצוג טקסט: notes/text_representation.md
+    - דחיסה וקריפטוגרפיה:
+      - דחיסה: notes/compression.md
+      - תיקון שגיאות: notes/error_correction.md
+      - קריפטוגרפיה: notes/cryptography.md
+    - נושאים נוספים:
+      - התאמת מחרוזות: notes/string_matching.md
+      - עיבוד תמונות: notes/image_processing.md
+      - קבצים: notes/file_io.md
+    - הכנה לבחינה:
+      - טריקים לבחינה: notes/exam_tricks.md
+      - דף סיכום: notes/cheat_sheet.md
+  - שאלות מבחנים:
+    - סקירה: exam_questions/README.md
+    - סיבוכיות: exam_questions/complexity.md
+    - מבני נתונים: exam_questions/data_structures.md
+    - רקורסיה וגנרטורים: exam_questions/recursion_and_generators.md
+    - דחיסה: exam_questions/compression.md
+    - תיקון שגיאות: exam_questions/error_correction.md
+    - קריפטוגרפיה: exam_questions/cryptography_and_primes.md
+    - זיכרון: exam_questions/memory.md
+    - נושאים נוספים: exam_questions/misc_topics.md
+  - קוד לדוגמה: code/README.md
+  - מחברות Jupyter:
+    - סקירה: notebooks/README.md
+    - חיפוש בינארי וסיבוכיות: notebooks/binary_search_and_complexity.ipynb
+    - רקורסיה ו-Memoization: notebooks/recursion_and_memoization.ipynb
+    - מבני נתונים: notebooks/data_structures.ipynb
+    - דחיסה: notebooks/compression.ipynb
+    - מיון: notebooks/sorting.ipynb
+    - פונקציות מסדר גבוה: notebooks/higher_order.ipynb
+    - זיכרון: notebooks/memory.ipynb
+    - קריפטוגרפיה: notebooks/cryptography.ipynb
+    - תיקון שגיאות: notebooks/error_correction.ipynb
+    - התאמת מחרוזות: notebooks/string_matching.ipynb

@@ -9,3 +9,9 @@ __pycache__/
 # IDE / editor
 .vscode/
 .cursor/
+
+# MkDocs build output
+site/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

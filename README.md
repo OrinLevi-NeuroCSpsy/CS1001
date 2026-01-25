@@ -8,10 +8,10 @@
 
 ```
 CS1001_sum/
-├── notes/              # סיכומי נושאים (23 קבצים)
-├── exam_questions/     # שאלות מבחנים לפי נושאים (8 קבצים)
-├── code/               # קוד לדוגמה (21 קבצים)
-└── notebooks/          # מחברות Jupyter
+├── notes/              # סיכומי נושאים (26 קבצים)
+├── exam_questions/     # שאלות מבחנים לפי נושאים (9 קבצים)
+├── code/               # קוד לדוגמה (22 קבצים)
+└── notebooks/          # מחברות Jupyter (10 מחברות)
 ```
 
 ---
@@ -21,15 +21,16 @@ CS1001_sum/
 | קובץ | נושא |
 |------|------|
 | [basics.md](notes/basics.md) | יסודות פייתון |
+| [memory.md](notes/memory.md) | מודל הזיכרון, aliasing, copy |
 | [lists.md](notes/lists.md) | רשימות |
 | [strings.md](notes/strings.md) | מחרוזות |
 | [dictionaries_and_sets.md](notes/dictionaries_and_sets.md) | מילונים וקבוצות |
 | [functions_and_recursion.md](notes/functions_and_recursion.md) | פונקציות ורקורסיה |
+| [higher_order_functions.md](notes/higher_order_functions.md) | פונקציות מסדר גבוה |
+| [iterators_generators.md](notes/iterators_generators.md) | איטרטורים וגנרטורים |
 | [complexity.md](notes/complexity.md) | סיבוכיות |
 | [sorting.md](notes/sorting.md) | מיון |
 | [search_binary.md](notes/search_binary.md) | חיפוש בינארי |
-| [higher_order_functions.md](notes/higher_order_functions.md) | פונקציות מסדר גבוה |
-| [iterators_generators.md](notes/iterators_generators.md) | איטרטורים וגנרטורים |
 | [memoization.md](notes/memoization.md) | Memoization |
 | [oop.md](notes/oop.md) | תכנות מונחה עצמים |
 | [linked_lists.md](notes/linked_lists.md) | רשימות מקושרות |
@@ -43,6 +44,7 @@ CS1001_sum/
 | [image_processing.md](notes/image_processing.md) | עיבוד תמונות |
 | [file_io.md](notes/file_io.md) | קריאה וכתיבה לקבצים |
 | [exam_tricks.md](notes/exam_tricks.md) | טריקים לבחינה |
+| [cheat_sheet.md](notes/cheat_sheet.md) | דף סיכום מרוכז |
 
 ---
 
@@ -58,6 +60,7 @@ CS1001_sum/
 | [compression.md](exam_questions/compression.md) | האפמן, LZ | 2022b-2025b |
 | [error_correction.md](exam_questions/error_correction.md) | קודים לתיקון שגיאות | 2022b-2023b |
 | [cryptography_and_primes.md](exam_questions/cryptography_and_primes.md) | ראשוניות, קריפטוגרפיה | 2022b |
+| [memory.md](exam_questions/memory.md) | זיכרון, Aliasing, Copy | שאלות נפוצות |
 | [misc_topics.md](exam_questions/misc_topics.md) | PageRank, Floating Point, CFG | 2023a-2025b |
 
 [מידע נוסף על שאלות המבחנים](exam_questions/README.md)
@@ -71,6 +74,7 @@ CS1001_sum/
 | קובץ | נושא |
 |------|------|
 | [basics_demo.py](code/basics_demo.py) | יסודות פייתון |
+| [memory_demo.py](code/memory_demo.py) | זיכרון, aliasing, copy |
 | [lists_demo.py](code/lists_demo.py) | פעולות על רשימות |
 | [strings_demo.py](code/strings_demo.py) | פעולות על מחרוזות |
 | [dict_set_demo.py](code/dict_set_demo.py) | מילונים וקבוצות |

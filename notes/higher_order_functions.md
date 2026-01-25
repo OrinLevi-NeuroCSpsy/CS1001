@@ -342,13 +342,42 @@ square(4)   # 16
 cube(4)     # 64
 ```
 
-### דקורטור פשוט (לידיעה)
+---
+
+## דקורטורים (Decorators)
+
+### מהו דקורטור?
+פונקציה שמקבלת פונקציה ומחזירה פונקציה **משופרת** - מוסיפה פונקציונליות בלי לשנות את הקוד המקורי.
+
+### תחביר בסיסי
+
+```python
+def my_decorator(func):
+    def wrapper(*args, **kwargs):
+        # קוד לפני הפונקציה
+        result = func(*args, **kwargs)
+        # קוד אחרי הפונקציה
+        return result
+    return wrapper
+
+# שימוש עם @
+@my_decorator
+def my_function():
+    pass
+
+# שקול ל:
+my_function = my_decorator(my_function)
+```
+
+### דוגמה 1: לוג קריאות
 
 ```python
 def log_calls(func):
-    def wrapper(*args):
-        print(f"Calling {func.__name__} with {args}")
-        return func(*args)
+    def wrapper(*args, **kwargs):
+        print(f"קוראים ל-{func.__name__} עם {args}")
+        result = func(*args, **kwargs)
+        print(f"החזיר: {result}")
+        return result
     return wrapper
 
 @log_calls
@@ -356,9 +385,130 @@ def add(a, b):
     return a + b
 
 add(2, 3)
-# Calling add with (2, 3)
-# 5
+# קוראים ל-add עם (2, 3)
+# החזיר: 5
 ```
+
+### דוגמה 2: מדידת זמן ריצה
+
+```python
+import time
+
+def timer(func):
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+        print(f"{func.__name__} רץ {end - start:.4f} שניות")
+        return result
+    return wrapper
+
+@timer
+def slow_function(n):
+    total = 0
+    for i in range(n):
+        total += i
+    return total
+
+slow_function(1000000)
+# slow_function רץ 0.0523 שניות
+```
+
+### דוגמה 3: Memoization כדקורטור
+
+```python
+def memoize(func):
+    cache = {}
+    def wrapper(*args):
+        if args not in cache:
+            cache[args] = func(*args)
+        return cache[args]
+    return wrapper
+
+@memoize
+def fib(n):
+    if n <= 1:
+        return n
+    return fib(n-1) + fib(n-2)
+
+fib(100)  # מהיר! בזכות ה-memoization
+```
+
+### דוגמה 4: בדיקת קלט
+
+```python
+def validate_positive(func):
+    def wrapper(n):
+        if n < 0:
+            raise ValueError("המספר חייב להיות חיובי")
+        return func(n)
+    return wrapper
+
+@validate_positive
+def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+
+factorial(5)   # 120
+factorial(-1)  # ValueError!
+```
+
+### דקורטור עם פרמטרים
+
+```python
+def repeat(times):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            for _ in range(times):
+                result = func(*args, **kwargs)
+            return result
+        return wrapper
+    return decorator
+
+@repeat(3)
+def say_hello():
+    print("Hello!")
+
+say_hello()
+# Hello!
+# Hello!
+# Hello!
+```
+
+### שרשור דקורטורים
+
+```python
+@decorator1
+@decorator2
+def func():
+    pass
+
+# שקול ל:
+func = decorator1(decorator2(func))
+```
+
+**סדר ההפעלה:** decorator2 קודם, אח"כ decorator1
+
+### functools.wraps - שמירת מטא-דאטא
+
+```python
+from functools import wraps
+
+def my_decorator(func):
+    @wraps(func)  # שומר את __name__, __doc__ וכו'
+    def wrapper(*args, **kwargs):
+        return func(*args, **kwargs)
+    return wrapper
+```
+
+### שימושים נפוצים לדקורטורים
+- **לוגים ומעקב** (logging)
+- **מדידת ביצועים** (profiling)
+- **Memoization/Caching**
+- **בקרת גישה** (authentication)
+- **וולידציה** של קלט
+- **ניסיונות חוזרים** (retry logic)
 
 ---
 
