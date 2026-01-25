@@ -282,3 +282,11 @@ def func(n):
 - [ ] פעולות על מחרוזות/רשימות עולות זמן
 - [ ] `in` על רשימה הוא O(n)
 - [ ] רקורסיה צורכת מקום ב-stack
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [binary_search.py](../code/binary_search.py)
+- **מחברת:** [binary_search_and_complexity.ipynb](../notebooks/binary_search_and_complexity.ipynb)
+- **שאלות בחינה:** [complexity.md](../exam_questions/complexity.md)

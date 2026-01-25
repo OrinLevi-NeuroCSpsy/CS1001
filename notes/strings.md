@@ -432,3 +432,10 @@ print("-".join(["a", "b", "c"]))
 - [ ] `s[::-1]` - היפוך מחרוזת
 - [ ] f-strings: `f"Hello {name}"` - עיצוב נוח
 - [ ] `join()` יעיל יותר משרשור בלולאה
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [strings_demo.py](../code/strings_demo.py)
+- **שאלות בחינה:** [compression.md](../exam_questions/compression.md)

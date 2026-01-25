@@ -487,3 +487,10 @@ B₁₆ = 1011₂
 - [ ] n bits עם סימן: טווח -2ⁿ⁻¹ עד 2ⁿ⁻¹-1
 - [ ] **Floating Point:** יש בעיות דיוק! השתמש ב-`math.isclose()`
 - [ ] 0.1 + 0.2 ≠ 0.3 בגלל ייצוג בינארי לא מדויק
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [binary_and_hex.py](../code/binary_and_hex.py)
+- **שאלות בחינה:** [cryptography_and_primes.md](../exam_questions/cryptography_and_primes.md)

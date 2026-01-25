@@ -394,3 +394,10 @@ print(b)
 - [ ] מתודות כמו `sort()` מחזירות `None` ומשנות במקום
 - [ ] `a = b` יוצר alias, לא העתק
 - [ ] לא לשנות רשימה תוך כדי לולאה עליה
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [lists_demo.py](../code/lists_demo.py)
+- **שאלות בחינה:** [recursion_and_generators.md](../exam_questions/recursion_and_generators.md)

@@ -200,3 +200,11 @@ lst = [2, 5, 8, 12, 16, 23, 38, 56, 72, 91]
 - [ ] תנאי הלולאה: `while low <= high`
 - [ ] עדכון גבולות: `mid + 1` ו-`mid - 1` (לא `mid`!)
 - [ ] לדעת לעשות מעקב ידני על חיפוש בינארי
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [binary_search.py](../code/binary_search.py)
+- **מחברת:** [binary_search_and_complexity.ipynb](../notebooks/binary_search_and_complexity.ipynb)
+- **שאלות בחינה:** [complexity.md](../exam_questions/complexity.md)
