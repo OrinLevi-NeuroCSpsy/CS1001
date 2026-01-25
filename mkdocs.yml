@@ -6,6 +6,9 @@ site_url: https://orinlevi.github.io/CS1001_sum/
 repo_name: CS1001_sum
 repo_url: https://github.com/orinlevi/CS1001_sum
 
+extra_css:
+  - stylesheets/extra.css
+
 theme:
   name: material
   language: he

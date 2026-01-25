@@ -1,0 +1,16 @@
+/* כותרת האתר – ורוד בייבי + by Orin Levi */
+
+/* כותרת בראש העמוד (header) */
+.md-header__title .md-header__topic:first-of-type {
+  color: #f8b4d9 !important;
+}
+
+.md-header__title .md-header__topic:first-of-type::after {
+  content: "by Orin Levi";
+  display: block;
+  font-size: 0.65em;
+  font-weight: 400;
+  opacity: 0.9;
+  color: #f8b4d9;
+  margin-top: 0.1em;
+}
