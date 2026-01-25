@@ -12,12 +12,14 @@ theme:
   direction: rtl
   palette:
     - scheme: slate
+      media: "(min-width: 0)"
       primary: indigo
       accent: indigo
       toggle:
         icon: material/brightness-4
         name: מצב יום
     - scheme: default
+      media: "(prefers-color-scheme: light)"
       primary: indigo
       accent: indigo
       toggle:
