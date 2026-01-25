@@ -575,3 +575,10 @@ result = 0×1 + 1×2 + 0×3 +
 - [ ] **סיבוב 90°**: מחליף בין height ו-width
 - [ ] **RGB לאפור**: `0.299R + 0.587G + 0.114B`
 - [ ] תמיד לוודא ש: `0 ≤ result ≤ 255`
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [image_processing_demo.py](../code/image_processing_demo.py)
+- **שאלות בחינה:** [misc_topics.md](../exam_questions/misc_topics.md)

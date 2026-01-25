@@ -389,3 +389,9 @@ def power(x, n):
 - [ ] **Bottom-Up** = לולאה + מערך
 - [ ] זהירות: ערך ברירת מחדל משתנה (`memo={}`)
 - [ ] רשימות לא hashable - המר ל-tuple
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [memoization_demo.py](../code/memoization_demo.py)

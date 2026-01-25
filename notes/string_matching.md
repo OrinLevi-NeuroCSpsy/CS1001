@@ -468,3 +468,9 @@ i=12: AABA = AABA ✓
 - [ ] **סיבוכיות RK**: ממוצע O(n+m), גרוע O(n×m)
 - [ ] **יתרון RK**: יעיל לחיפוש מספר תבניות
 - [ ] נוסחת hash: `hash(s) = Σ s[i]×d^(m-1-i) mod q`
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [string_matching_demo.py](../code/string_matching_demo.py)

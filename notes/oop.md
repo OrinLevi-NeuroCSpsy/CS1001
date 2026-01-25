@@ -632,3 +632,10 @@ acc.deposit(50)
 - [ ] הורשה: `class Child(Parent):`
 - [ ] `super()` לקריאה למתודות האב
 - [ ] `isinstance(obj, Class)` בודק גם הורשה
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [oop_demo.py](../code/oop_demo.py)
+- **שאלות בחינה:** [data_structures.md](../exam_questions/data_structures.md)

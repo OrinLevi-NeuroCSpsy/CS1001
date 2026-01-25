@@ -561,3 +561,10 @@ error_pos = 1 + 0 + 4 = 5
 - [ ] מרחק d: גילוי d-1, תיקון ⌊(d-1)/2⌋
 - [ ] **XOR** = חיבור/חיסור במודולו 2
 - [ ] **SECDED** = Hamming + ביט זוגיות כללי
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [error_correction_demo.py](../code/error_correction_demo.py)
+- **שאלות בחינה:** [error_correction.md](../exam_questions/error_correction.md)

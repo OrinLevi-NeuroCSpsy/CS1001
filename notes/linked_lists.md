@@ -646,3 +646,9 @@ def remove_last(self):
 - [ ] שמירת הפניות לפני שינוי מצביעים
 - [ ] `while current:` לא `while current.next:`
 - [ ] היפוך רשימה: שלושה מצביעים (prev, current, next)
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [linked_lists_demo.py](../code/linked_lists_demo.py)

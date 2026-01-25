@@ -569,3 +569,9 @@ print(g(2))
 - [ ] **map/filter** מחזירים **iterator** - חד-פעמי!
 - [ ] **Closure** = פונקציה פנימית שזוכרת משתנים חיצוניים
 - [ ] list comprehension בד"כ קריא יותר מ-map/filter
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [higher_order_demo.py](../code/higher_order_demo.py)

@@ -409,3 +409,10 @@ d[[1, 2]] = "value"  # TypeError!
 - [ ] סיבוכיות ממוצעת: **O(1)**, גרועה: O(n)
 - [ ] בפייתון: `dict` ו-`set` מבוססים על hash tables
 - [ ] רק **Immutable** יכול להיות מפתח/איבר
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [hash_tables_demo.py](../code/hash_tables_demo.py)
+- **שאלות בחינה:** [data_structures.md](../exam_questions/data_structures.md)

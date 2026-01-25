@@ -599,3 +599,10 @@ class EvenNumbers:
 - [ ] איטרטור הוא **חד-פעמי** - אחרי שנגמר, צריך ליצור חדש
 - [ ] `map`, `filter`, `zip`, `enumerate` מחזירים איטרטורים
 - [ ] `yield from` - קיצור ל-yield על iterable
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [iterators_generators_demo.py](../code/iterators_generators_demo.py)
+- **שאלות בחינה:** [recursion_and_generators.md](../exam_questions/recursion_and_generators.md)

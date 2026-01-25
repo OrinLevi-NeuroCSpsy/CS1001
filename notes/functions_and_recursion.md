@@ -534,3 +534,10 @@ def fib(n):
 - [ ] **לא לשכוח** `return` בקריאה הרקורסיבית
 - [ ] לדעת לעשות **מעקב (trace)** ידני
 - [ ] להכיר את הדוגמאות הקלאסיות: עצרת, פיבונאצ'י, סכום ספרות
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [recursion_demo.py](../code/recursion_demo.py)
+- **שאלות בחינה:** [recursion_and_generators.md](../exam_questions/recursion_and_generators.md)

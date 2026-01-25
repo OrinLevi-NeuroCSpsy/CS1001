@@ -481,3 +481,9 @@ with open('data.txt', 'r') as f:
 - [ ] תמיד לציין `encoding='utf-8'` לעברית
 - [ ] `strip()` מסיר רווחים ו-`\n` מקצוות השורה
 - [ ] `readlines()` מחזיר רשימה עם `\n` בכל שורה
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [file_io_demo.py](../code/file_io_demo.py)

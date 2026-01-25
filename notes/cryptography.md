@@ -476,3 +476,10 @@ K = B^a mod 11 = 10^3 mod 11 = 1000 mod 11 = 10
 - [ ] **Diffie-Hellman**: g^a mod p, g^b mod p → מפתח משותף g^(ab) mod p
 - [ ] **משפט פרמה**: a^(p-1) ≡ 1 (mod p) כש-p ראשוני
 - [ ] `pow(base, exp, mod)` - מובנה ויעיל בפייתון
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [cryptography_demo.py](../code/cryptography_demo.py)
+- **שאלות בחינה:** [cryptography_and_primes.md](../exam_questions/cryptography_and_primes.md)

@@ -567,3 +567,10 @@ ABAB    → (2, 4, '')   - AB הופיע 2 אחורה, אורך 4
 - [ ] **LZ** = דחיסה מילונית, לא צריך תדירויות מראש
 - [ ] **LZ77** = (offset, length, next) - הפניה למיקום קודם
 - [ ] **LZW** = בונה מילון תוך כדי קידוד
+
+---
+
+## קישורים נוספים
+
+- **קוד:** [compression_demo.py](../code/compression_demo.py)
+- **שאלות בחינה:** [compression.md](../exam_questions/compression.md)
