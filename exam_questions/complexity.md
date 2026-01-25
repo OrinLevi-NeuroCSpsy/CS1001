@@ -77,6 +77,90 @@ def f(n):
 
 ---
 
+## שאלה 5: Binary Search משופר (2025a מועד א', שאלה 1א')
+
+```python
+def binary_search_new(lst, key):
+    n = len(lst)
+    left = 0
+    right = n-1
+    while left <= right:
+        mid = (left+right)//2
+        if key == lst[mid]:
+            while mid+1 < len(lst) and lst[mid+1] == key:
+                mid += 1
+            return mid
+        elif key < lst[mid]:
+            right = mid-1
+        else:
+            left = mid+1
+    return None
+```
+
+**שאלה א:** עבור lst = [1,3,5,5,5,5,6,7], key = 5, מה יוחזר?
+
+**תשובה:** 5 (האינדקס של ה-5 האחרון ברצף)
+
+**שאלה ב:** מהי סיבוכיות הזמן במקרה הגרוע?
+
+**תשובה:** O(n)
+
+**הסבר:** במקרה הגרוע כל האיברים זהים ל-key, אז לולאת ה-while הפנימית עוברת על כל הרשימה.
+
+---
+
+## שאלה 6: ניתוח לולאות (2024a מועד ב', שאלה 1א')
+
+```python
+def f(L):
+    n = len(L)
+    res = []
+    for i in range(n-500, n):
+        m = math.floor(math.log2(i))
+        for j in range(m):
+            k = 1
+            while k<n:
+                k*=2
+                res.append(k)
+    return res
+```
+
+**שאלה:** מהו זמן הריצה כתלות ב-n?
+
+**תשובה:** O(log²n)
+
+**הסבר:**
+- לולאה חיצונית: 500 איטרציות (קבוע)
+- לולאה אמצעית: O(log n) איטרציות
+- לולאה פנימית: O(log n) איטרציות
+- סה"כ: O(500 · log n · log n) = O(log²n)
+
+---
+
+## שאלה 7: Quicksort עם שינוי (2024a מועד א', שאלה 1א')
+
+```python
+def quicksort(lst):
+    if len(lst) <= 1:
+        return lst
+    else:
+        pivot = lst[0]
+        smaller = [elem for elem in lst[1:] if elem < pivot]
+        equal = [elem for elem in lst[1:] if elem == pivot]
+        greater = [elem for elem in lst[1:] if elem > pivot]
+        return quicksort(smaller) + equal + quicksort(greater)
+```
+
+**שאלה:** מה הפלט של quicksort([1,2,3,4])? מה הסיבוכיות במקרה הגרוע?
+
+**תשובה:**
+- פלט: [1,2,3,4] (ממוין נכון)
+- סיבוכיות: O(n²) - כי השתמשו ב-lst[1:] שמבטיח pivot לא נכלל פעמיים
+
+**הערה:** ההבדל מהגרסה המקורית - lst[1:] במקום lst
+
+---
+
 ## קישורים לסיכומים
 
 - [סיבוכיות](../notes/complexity.md)

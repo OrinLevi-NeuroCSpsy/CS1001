@@ -117,6 +117,146 @@ def new_cyk_rec(rule_dict, var, st, i, j):
 
 ---
 
+## שאלה 6: פלינדרום רקורסיבי (2024a מועד א', שאלה 1ב')
+
+```python
+def is_pal(s):
+    if s == "":
+        return True
+    return s[0] == s[-1] and is_pal(s[1:-1])
+```
+
+**הערה:** יש להשלים שורה אחת בלבד!
+
+---
+
+## שאלה 7: רשימה ממוינת רקורסיבית (2024a מועד ב', שאלה 1ג')
+
+```python
+def is_sorted(L):
+    if len(L) <= 1:
+        return True
+    return L[0] <= L[1] and is_sorted(L[1:])
+```
+
+**הערה:** יש להשלים שורה אחת בלבד!
+
+---
+
+## שאלה 8: גנרטורים - merge ו-filter (2024a מועד ב', שאלה 1ו')
+
+```python
+def merge(gen1, gen2):
+    left = next(gen1)
+    right = next(gen2)
+    while True:
+        if left <= right:
+            yield left
+            left = next(gen1)
+        else:
+            yield right
+            right = next(gen2)
+
+def naturals():
+    n = 0
+    while True:
+        yield n
+        n += 1
+
+def filter(gen, n):
+    val = next(gen)
+    while True:
+        if val < n:
+            yield val
+            val = next(gen)
+```
+
+**שאלות:**
+
+| קטע קוד | תסתיים? |
+|---------|----------|
+| `x = merge(naturals(), naturals()); w = next(x)` | כן |
+| `x = merge(merge(naturals(),naturals()),naturals()); w = next(x)` | כן |
+| `x = filter(naturals(),-10); w = next(x)` | לא (אין val < -10) |
+| `x = filter(naturals(),10**10); w = next(x)` | כן |
+| `x = naturals` | כן (רק השמה, לא קריאה) |
+
+---
+
+## שאלה 9: LCS - Longest Common Subsequence (2025a מועד א', שאלה 2)
+
+**הגדרה:** תת מחרוזת של st היא מילה שנוצרת מבחירת תווים (לא בהכרח רצופים) בסדר עולה.
+
+```python
+def lcs(st1, st2):
+    return lcs_rec(st1, st2, len(st1), len(st2))
+
+def lcs_rec(st1, st2, m, n):
+    if m == 0 or n == 0:
+        return 0
+    if st1[m-1] == st2[n-1]:
+        return 1 + lcs_rec(st1, st2, m-1, n-1)
+    else:
+        return max(lcs_rec(st1, st2, m-1, n), lcs_rec(st1, st2, m, n-1))
+```
+
+**דוגמאות:**
+- LCS("bxcg", "abcdefg") = 3 ("bcg")
+- LCS("aaa", "aba") = 2 ("aa")
+- LCS("aaaa", "xyz") = 0
+
+**סיבוכיות:**
+- מקרה טוב: O(n) - כשכל התווים זהים
+- מקרה גרוע: O(2ⁿ) - עץ רקורסיה אקספוננציאלי
+
+---
+
+## שאלה 10: LCS עם Memoization (2025a מועד א', שאלה 2ג')
+
+```python
+def lcs_mem(st1, st2):
+    m, n = len(st1), len(st2)
+    memo = {}
+
+    def lcs_rec(i, j):
+        if i == 0 or j == 0:
+            return 0
+        if (i, j) in memo:
+            return memo[(i, j)]
+
+        if st1[i-1] == st2[j-1]:
+            result = 1 + lcs_rec(i-1, j-1)
+        else:
+            result = max(lcs_rec(i-1, j), lcs_rec(i, j-1))
+
+        memo[(i, j)] = result
+        return result
+
+    return lcs_rec(m, n)
+```
+
+**סיבוכיות עם memoization:** O(m·n)
+
+---
+
+## שאלה 11: Longest Monotone Subsequence (2025a מועד א', שאלה 2ד')
+
+**מחרוזת מונוטונית עולה:** תווים בסדר לקסיקוגרפי עולה (כולל חזרות)
+
+```python
+def longest_monotone(st):
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    return lcs_mem(st, alphabet)
+```
+
+**דוגמאות:**
+- longest_monotone("axbyczd") = 4 ("abcd")
+- longest_monotone("aabaa") = 4 ("aaaa")
+
+**הסבר:** המחרוזת המונוטונית הארוכה ביותר היא ה-LCS עם האלפבית הממוין!
+
+---
+
 ## קישורים לסיכומים
 
 - [פונקציות ורקורסיה](../notes/functions_and_recursion.md)
