@@ -24,6 +24,7 @@ python sorting_demo.py
 | קובץ | תוכן |
 |------|------|
 | [basics_demo.py](basics_demo.py) | משתנים, תנאים, לולאות, פונקציות בסיסיות |
+| [memory_demo.py](memory_demo.py) | זיכרון, aliasing, shallow/deep copy, stack |
 | [lists_demo.py](lists_demo.py) | פעולות על רשימות, slicing, list comprehension |
 | [strings_demo.py](strings_demo.py) | פעולות על מחרוזות, עיבוד טקסט |
 | [dict_set_demo.py](dict_set_demo.py) | מילונים, קבוצות, פעולות נפוצות |

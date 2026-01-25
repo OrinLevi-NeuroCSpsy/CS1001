@@ -15,6 +15,7 @@
 | [recursion_and_generators.md](recursion_and_generators.md) | רקורסיה, גנרטורים, LCS, Memoization | 2022b, 2023a, 2023b, 2024a, 2024b, 2025a, 2025b |
 | [cryptography_and_primes.md](cryptography_and_primes.md) | ראשוניות, פרמה, modpower | 2022b |
 | [misc_topics.md](misc_topics.md) | PageRank, Floating Point, Aliasing, CFG | 2023a, 2023b, 2024a, 2024b, 2025a, 2025b |
+| [memory.md](memory.md) | זיכרון, Aliasing, Mutable, Copy | שאלות נפוצות |
 
 ---
 

@@ -13,6 +13,8 @@
 | [data_structures.ipynb](data_structures.ipynb) | BST, Hash Tables | [oop.md](../notes/oop.md), [hash_tables.md](../notes/hash_tables.md) |
 | [compression.ipynb](compression.ipynb) | האפמן, Lempel-Ziv | [compression.md](../notes/compression.md) |
 | [sorting.ipynb](sorting.ipynb) | Bubble, Selection, Merge, Quick | [sorting.md](../notes/sorting.md) |
+| [higher_order.ipynb](higher_order.ipynb) | Lambda, Map, Filter, Reduce | [higher_order_functions.md](../notes/higher_order_functions.md) |
+| [memory.ipynb](memory.ipynb) | זיכרון, Aliasing, Copy | [memory.md](../notes/memory.md) |
 
 ---
 
