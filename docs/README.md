@@ -1,7 +1,5 @@
 # <span class="chick-badge">🐣</span> <span class="main-title">סיכום קורס מבוא מורחב למדעי המחשב (CS1001.py)</span>
 
-<p class="byline">by Orin Levi</p>
-
 סיכום מקיף לקורס CS1001.py באוניברסיטת תל אביב, כולל סיכומי נושאים, שאלות מבחנים, מחברות Jupyter וקוד לדוגמה.
 
 ---
