@@ -1,36 +1,68 @@
-/* ורוד בייבי #f4c2c2, כחול בייבי #b3e5fc */
+/* === עיצוב מקצועי - CS1001.py === */
 
-/* כותרת בראש העמוד (header) – ורוד בייבי */
+/* צבעים */
+:root {
+  --accent-pink: #f4c2c2;
+  --accent-blue: #89b4fa;
+  --text-muted: #a6adc8;
+}
+
+/* === כותרת עליונה (Header) === */
+
+/* שם האתר + אפרוח */
 .md-header__title .md-header__topic:first-of-type {
-  color: #f4c2c2 !important;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-/* by Orin Levi בקטן – מימין לאפרוח (באזור RTL: ::before מופיע ימין) */
-.md-header__title .md-header__topic:first-of-type::before {
-  content: "by Orin Levi";
-  font-size: 0.65em;
-  font-weight: 400;
-  color: #f4c2c2;
-  display: inline-block;
-  margin-inline-end: 10px;
-}
-
-/* אפרוח בכותרת העליונה – בלי ורוד, משמאל (::after באזור RTL) */
+/* אפרוח בלבד בכותרת */
 .md-header__title .md-header__topic:first-of-type::after {
   content: "🐣";
-  display: inline-block;
-  margin-inline-start: 8px;
-  background: none !important;
-  padding: 0 !important;
+  font-size: 1.1em;
 }
 
-/* כותרת ראשית בדף הבית – ורוד בייבי */
+/* by Orin Levi - ליד שם האתר */
+.md-header__title .md-header__topic:last-of-type::after {
+  content: " · by Orin Levi";
+  font-size: 0.75em;
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-inline-start: 4px;
+}
+
+/* === דף הבית === */
+
+/* כותרת ראשית */
 .main-title {
-  color: #f4c2c2 !important;
+  color: var(--accent-pink) !important;
 }
 
-
-/* אפרוח בדף הבית – בלי ורוד */
+/* אפרוח בדף הבית */
 .chick-badge {
   margin-inline-end: 8px;
+}
+
+/* === שיפורים כלליים === */
+
+/* קוד - רקע עדין יותר */
+.highlight code,
+code {
+  border-radius: 4px;
+}
+
+/* טבלאות - מראה נקי */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* כפתורי ניווט */
+.md-nav__link:hover {
+  color: var(--accent-blue) !important;
+}
+
+/* תגיות קוד inline */
+.md-typeset code {
+  padding: 0.1em 0.4em;
 }
