@@ -157,7 +157,7 @@ python basics_demo.py
 
 ## תרומה
 
-מצאתם טעות? רוצים להוסיף חומר? פתחו Issue או Pull Request — או שלחו מייל ל־[orinl@mail.tau.ac.il](mailto:orinl@mail.tau.ac.il).
+מצאתם טעות? רוצים להוסיף חומר? פתחו Issue/ Pull Request, או שלחו לי מייל [orinl@mail.tau.ac.il](mailto:orinl@mail.tau.ac.il) (:
 
 ---
 

@@ -1,6 +1,6 @@
-# <span class="chick-badge">🐣</span> סיכום קורס מבוא מורחב למדעי המחשב (CS1001.py) {: .main-title }
+# <span class="chick-badge">🐣</span> <span class="main-title">סיכום קורס מבוא מורחב למדעי המחשב (CS1001.py)</span>
 
-*by Orin Levi* {: .byline }
+<p class="byline">by Orin Levi</p>
 
 סיכום מקיף לקורס CS1001.py באוניברסיטת תל אביב, כולל סיכומי נושאים, שאלות מבחנים, מחברות Jupyter וקוד לדוגמה.
 
@@ -162,7 +162,7 @@ python basics_demo.py
 
 ## תרומה
 
-מצאתם טעות? רוצים להוסיף חומר? פתחו Issue או Pull Request — או שלחו מייל ל־[orinl@mail.tau.ac.il](mailto:orinl@mail.tau.ac.il).
+מצאתם טעות? רוצים להוסיף חומר? פתחו Issue/ Pull Request, או שלחו לי מייל [orinl@mail.tau.ac.il](mailto:orinl@mail.tau.ac.il) (:
 
 ---
 

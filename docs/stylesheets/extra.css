@@ -15,28 +15,17 @@
   margin-inline-end: 8px;
 }
 
-/* by Orin Levi מתחת לכותרת – עם רווח ברור */
-.md-header__title .md-header__topic:first-of-type::after {
-  content: "by Orin Levi";
-  display: block;
-  font-size: 0.65em;
-  font-weight: 400;
-  opacity: 0.9;
-  color: #f8b4d9;
-  margin-top: 0.4em;
-}
 
 /* כותרת ראשית בדף הבית – ורוד בייבי */
 .main-title {
   color: #f8b4d9 !important;
 }
 
-/* by Orin Levi בדף הבית – קטן יותר, עם רווח מהכותרת */
+/* by Orin Levi בדף הבית – גודל קריא, עם רווח מהכותרת */
 .byline {
-  font-size: 0.85em;
+  font-size: 1em;
   color: #f8b4d9;
   margin-top: 0.35em;
-  display: block;
 }
 
 /* אפרוח עם רקע ורוד – בדף הבית */
