@@ -15,17 +15,10 @@
 
 /* === כותרת עליונה (Header) === */
 
-/* הגדלת לוגו והקטנת רווחים מסביב */
+/* הקטנת רווחים מסביב ללוגו כדי שיראו יותר את העיגול */
 .md-header__button.md-logo {
-  padding: 0.2rem !important;
+  padding: 0.1rem !important;
   margin: 0 !important;
-}
-
-.md-header__button.md-logo img,
-.md-header__button.md-logo svg {
-  height: 2.8rem !important;
-  width: 2.8rem !important;
-  display: block;
 }
 
 /* by Orin Levi ליד שם האתר */
