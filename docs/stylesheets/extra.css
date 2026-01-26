@@ -5,11 +5,23 @@
   color: #f8b4d9 !important;
 }
 
-/* אפרוח בכותרת העליונה – בלי רקע ורוד */
+/* אפרוח בכותרת העליונה – בלי ורוד כלל */
 .md-header__title .md-header__topic:first-of-type::before {
   content: "🐣";
   display: inline-block;
   margin-inline-end: 8px;
+  background: none !important;
+  padding: 0 !important;
+}
+
+/* by Orin Levi בקטן – רק מתחת לכותרת ב-header */
+.md-header__title .md-header__topic:first-of-type::after {
+  content: "by Orin Levi";
+  display: block;
+  font-size: 0.65em;
+  font-weight: 400;
+  color: #f8b4d9;
+  margin-top: 0.35em;
 }
 
 
@@ -25,10 +37,7 @@
   margin-top: 0.35em;
 }
 
-/* אפרוח עם רקע ורוד – בדף הבית */
+/* אפרוח בדף הבית – בלי ורוד */
 .chick-badge {
-  background: #f8b4d9;
-  padding: 2px 8px;
-  border-radius: 8px;
   margin-inline-end: 8px;
 }
