@@ -9,8 +9,16 @@ repo_url: https://github.com/orinlevi/CS1001_sum
 extra_css:
   - stylesheets/extra.css
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/orinlevi/CS1001_sum
+
 theme:
+  logo: assets/logo.png
+  favicon: assets/logo.png
   name: material
+  custom_dir: overrides
   language: he
   direction: rtl
   palette:
