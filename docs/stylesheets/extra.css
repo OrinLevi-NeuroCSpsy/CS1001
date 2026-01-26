@@ -15,12 +15,6 @@
 
 /* === כותרת עליונה (Header) === */
 
-/* הקטנת רווחים מסביב ללוגו כדי שיראו יותר את העיגול */
-.md-header__button.md-logo {
-  padding: 0.1rem !important;
-  margin: 0 !important;
-}
-
 /* by Orin Levi ליד שם האתר */
 .md-header__title::after {
   content: " · by Orin Levi";
