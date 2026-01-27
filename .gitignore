@@ -15,3 +15,6 @@ site/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+
+# python virtual environment
+.venv/
