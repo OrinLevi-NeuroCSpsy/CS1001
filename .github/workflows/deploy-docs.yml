@@ -1,11 +1,7 @@
 name: Deploy Documentation
 
 on:
-  push:
-    branches:
-      - main
-      - master
-  workflow_dispatch:
+  workflow_dispatch:  # רק הרצה ידנית מ-Actions (לא אוטומט בכל push)
 
 permissions:
   contents: read
