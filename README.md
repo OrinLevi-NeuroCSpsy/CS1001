@@ -6,7 +6,7 @@
 
 ## אתר התיעוד
 
-**[https://orinlevi-neurocspsy.github.io/CS1001/](https://orinlevi.github.io/CS1001_sum/)**
+**[https://orinlevi-neurocspsy.github.io/CS1001/](https://orinlevi-neurocspsy.github.io/CS1001/)**
 
 מבנה הניווט באתר: **בית** | **סיכומים** (נושאים + שאלות מבחנים) | **מחברות** | **קוד** | **Colab** (קישורי Open in Colab לכל מחברת).
 
